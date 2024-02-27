@@ -1,6 +1,7 @@
 // sets up Passport with a local authentication strategy, using a Person model for user data. - Auth.js file
 
 const passport = require('passport');
+
 const LocalStrategy = require('passport-local').Strategy;
 const Person = require('./models/Person'); // Adjust the path as needed
 
